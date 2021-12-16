@@ -1,0 +1,785 @@
+@charset "utf-8";
+.bgPage00{height:100%;background:url(../images/main/bg00.png) 50% top no-repeat;background-size:cover}
+.bgPage00_{height:100%;background:url(../images/main/bg00_.png) 50% top no-repeat;background-size:cover}
+.bgPage01{height:100%;background:url(../images/main/bg01.png) 50% top no-repeat;background-size:cover}
+.bgPage02{height:100%;background:url(../images/main/bg02.png) 50% top no-repeat;background-size:cover}
+.bgPage03{height:100%;background:url(../images/main/bg03.png) 50% top no-repeat;background-size:cover}
+.bgPage04{height:100%;background:url(../images/main/bg04.png) 50% top no-repeat;background-size:cover}
+.bgPage05{height:100%;background:url(../images/main/bg05.png) 50% top no-repeat;background-size:cover}
+.bgPage06{height:100%;background:url(../images/main/bg06.png) 50% top no-repeat;background-size:cover}
+.bgPage07{height:100%;background:url(../images/main/bg07.png) 50% top no-repeat;background-size:cover}
+.bgPage08{height:100%;background:url(../images/main/bg08.png) 50% top no-repeat;background-size:cover}
+.bgPage09{height:100%;background:url(../images/main/bg09.png) 50% top no-repeat;background-size:cover}
+.bgPage10{height:100%;background:url(../images/main/bg10.png) 50% top no-repeat;background-size:cover}
+.bgPage11{height:100%;background:url(../images/main/bg11.png) 50% top no-repeat;background-size:cover}
+.bgPage12{height:100%;background:url(../images/main/bg12.png) 50% top no-repeat;background-size:cover}
+.bgPage13{height:100%;background:url(../images/main/bg13.png) 50% top no-repeat;background-size:cover}
+.bgPage14{height:100%;background:url(../images/main/bg14.png) 50% top no-repeat;background-size:cover}
+.bgPage15{height:100%;background:url(../images/main/bg15.png) 50% top no-repeat;background-size:cover}
+.bgPage16{height:100%;background:url(../images/main/bg16.png) 50% top no-repeat;background-size:cover}
+.bgPage17{height:100%;background:url(../images/main/bg17.png) 50% top no-repeat;background-size:cover}
+.bgPage18{height:100%;background:url(../images/main/bg18.png) 50% top no-repeat;background-size:cover}
+.bgPage19{height:100%;background:url(../images/main/bg19.png) 50% top no-repeat;background-size:cover}
+.bgPage20{height:100%;background:url(../images/main/bg20.png) 50% top no-repeat;background-size:cover}
+.bgPage21{height:100%;background:url(../images/main/bg21.png) 50% top no-repeat;background-size:cover}
+.bgPage22{height:100%;background:url(../images/main/bg22.png) 50% top no-repeat;background-size:cover}
+.bgPage23{height:100%;background:url(../images/main/bg23.png) 50% top no-repeat;background-size:cover}
+.bgPage24{height:100%;background:url(../images/main/bg24.png) 50% top no-repeat;background-size:cover}
+.bgPage25{height:100%;background:url(../images/main/bg25.png) 50% top no-repeat;background-size:cover}
+.bgPage26{height:100%;background:url(../images/main/bg26.png) 50% top no-repeat;background-size:cover}
+.bgPage27{height:100%;background:url(../images/main/bg27.png) 50% top no-repeat;background-size:cover}
+.bgPage28{height:100%;background:url(../images/main/bg28.png) 50% top no-repeat;background-size:cover}
+.bgPage29{height:100%;background:url(../images/main/bg29.png) 50% top no-repeat;background-size:cover}
+.bgPage30{height:100%;background:url(../images/main/bg30.png) 50% top no-repeat;background-size:cover}
+
+.videoArea {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.videoArea:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+.videoArea .this_slide {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  min-width: 1180px;
+  transform: translate(0, -50%);
+}
+
+.device{overflow:hidden;position:relative;width:1300px;height:468px;margin:10px auto}
+.bg_dot{overflow:hidden;position:absolute;z-index:50;width:100%;height:100%;background:url(../images/main/bg_dot.png) 50% top no-repeat}
+.bx-wrapper{overflow:hidden;height:100%}
+.bx-viewport{overflow:hidden;width:100%;height:100%}
+.bxslider{height:100%}
+.bxslider li{overflow:hidden;height:468px}
+.bx-controls{display:none}
+#prevBtn{float:left;position:absolute;top:37%;left:1%;z-index:100;padding:20px;color:#eee;color:rgba(255,255,255,0.5);cursor:pointer}
+#nextBtn{float:right;position:absolute;top:37%;right:1%;z-index:100;padding:20px;color:#eee;color:rgba(255,255,255,0.5);cursor:pointer}
+#prevBtn:hover{color:#fff}
+#nextBtn:hover{color:#fff}
+#mNav {display:none}
+/* notiPort */
+.utilArea{width:1200px;height:auto;margin:0 auto}
+.utilArea .notiPort{width:100%;margin:40px auto 0}
+.utilArea .notiPort > li{float:left;width:384px;margin-left:23px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .notiPort > li:first-child{margin-left:0}
+.utilArea .notiPort > li .u_area{float:left;width:100%}
+.utilArea .notiPort > li .u_area .title01{float:left;width:80%;font-size:18px;font-weight:600;color:#f33;letter-spacing:-1px}
+.utilArea .notiPort > li .u_area .more{float:right;font-size:20px;font-weight:600;color:#333}
+.utilArea .notiPort > li .u_area .xeNotice{float:left;width:100%}
+.utilArea .notiPort > li .u_area .xeNotice ul{float:left;width:100%;margin-top:14px;font-size:14px;color:#333}
+.utilArea .notiPort > li .u_area .xeNotice ul li{float:left;width:100%;margin-bottom:11px}
+.utilArea .notiPort > li .u_area .xeNotice ul li > a{overflow:hidden;float:left;width:70%;white-space:nowrap;white-space:nowrap;text-overflow:ellipsis}
+.utilArea .notiPort > li .u_area .xeNotice ul li > a:hover { color: #f33; text-decoration: none;}
+.widgetcoverer { position:relative }
+.widgetcoverer span.icon { float: left; display:inline; position:absolute; top:-2px; display:none }
+.widgetA .date {    color: #666; float:right }
+.utilArea .notiPort > li .u_area .xePortfolio{float:left;width:100%}
+.utilArea .notiPort > li .u_area .xePortfolio ul{float:left;width:100%;margin-top:14px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li{float:left;margin-left:8px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li:first-child{margin:0}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:188px;height:auto}
+
+/* .utilArea .notiPort > li .u_area .xePortfolio ul li > img { width:180px; height:112px } */
+.utilArea .notiPort > li .u_area .xeContactus{float:left;width:100%;height:113px}
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a{display:inline-block;width:100%;height:100%;margin-top:14px;border:1px solid #ccc;background:url(../images/main/contactus.png) right top no-repeat}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {display:inline-block;position:relative;margin:26px 0 0 130px; font-size:13px;line-height:120%;text-shadow:0 0 0 rgba(255,255,255,1)}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {display:inline-block;position:relative;font-size:13px;line-height:140%; color:#333; background: rgba(255,255,255,.8); padding:2px 4px; border-radius: 5px; margin-bottom:4px;text-shadow:0 0 5px #fff; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {display:inline-block; color:#333; font-weight:600; position:relative;font-size:21px;line-height:110%;text-shadow:0 0 0 rgba(255,255,255,1)}
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{display:inline-block;position:absolute;top:64px;left:36px;width:82px;height:72px;margin:0;background:url(../images/main/ico_contactus_r.png) left top no-repeat}
+
+/*
+.utilArea .notiPort > li .u_area .xeContactus .overBg { display:inline-block; width:100%;height:128px; background:rgba(0,0,0,.8); position: absolute;
+    bottom: -128px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .2s;
+    -webkit-transition: all .2s; }
+.utilArea .notiPort > li .u_area .xeContactus:hover .overBg { bottom:-14px;  }
+.utilArea .notiPort > li .u_area .xeContactus:hover > a span {z-index:0; color:#fff}
+*/
+/* product */
+.utilArea .title02{display:none}
+.utilArea .productTitle{width:100%;margin-bottom:30px;padding-top:30px;border-bottom:1px solid #ccc;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .productTitle > span{display:block;position:relative;top:30px;width:340px;margin:0 auto;padding:0;background:#fff;font-size:36px;line-height:120%;color:#f33;letter-spacing:-1px}
+.utilArea .productTitle > span:first-child{font-size:24px;color:#999}
+.utilArea .product{width:100%;margin:60px auto 0}
+.utilArea .product > li{overflow:hidden;float:left;width:384px;margin-left:24px;border:1px solid #ccc;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .product > li:first-child{margin-left:0}
+.utilArea .product > li > div{overflow:hidden;width:100%;height:220px;padding:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box; background:url(../images/common/gswMark_02.png) bottom right no-repeat}
+.utilArea .product > li > div:hover > p{color:#000}
+.utilArea .product > li > div:hover > span{color:#000}
+.utilArea .product > li > div:hover > a{color:#000}
+.utilArea .product > li > div > p{margin-bottom:10px;font-size:26px;color:#666;letter-spacing:-1px}
+.utilArea .product > li > div > span{display:inline-block;font-size:12px;line-height:140%;color:#888}
+.utilArea .product > li > div a{display:inline-block;position:absolute;left:30px;bottom:30px;width:100%;font-size:13px;color:#999}
+.utilArea .product > li > div i{position:relative;top:2px;font-size:16px}
+
+.utilArea .product > li:last-child> div { background:none}
+
+/*포스트코로나*/
+.utilArea .postCoronaTitle{width:100%;margin-bottom:50px;padding-top:50px;border-bottom:1px solid #ccc;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .postCoronaTitle > span{display:block;position:relative;top:21px;width:600px;margin:0 auto;padding:0;background:#fff;font-size:36px;line-height:120%;color:#666;letter-spacing:-1px}
+.utilArea .postCoronaTitle > span:first-child{font-size:24px;color:#999}
+
+.utilArea .postCoronaTitle > span em:first-child { font-weight: 600; color:#f33}
+.utilArea .postCoronaTitle > span em { color: #33cccc; }
+
+.utilArea .postCorona { display: inline-block; width:100%; height: 337px;  margin:30px auto 0; border-bottom:1px solid #ccc; background:url(../images/main/postCorona.png) left top no-repeat; background-size:cover;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.utilArea .postCorona ul {width: 80%; margin:80px auto 0 }
+
+.utilArea .postCorona ul li { display: inline-block; height: 230px; padding-top: 120px; overflow:hidden; position: relative; float:left;width:33%; background: #ccc;  -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box; text-shadow: 0 0 10px rgba(255,255,255,1); -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box; }
+
+.utilArea .postCorona ul li:first-child { background:url(../images/main/postCorona_ico01.png) center 6px no-repeat; background-size:35% auto  }
+.utilArea .postCorona ul li:nth-child(2) { background:url(../images/main/postCorona_ico02.png) center top no-repeat; background-size:35% auto}
+.utilArea .postCorona ul li:nth-child(3) { background:url(../images/main/postCorona_ico03.png) center 6px no-repeat; background-size:38% auto}
+
+.utilArea .postCorona ul li em { display: inline-block; margin-bottom:6px; width:100%; text-align: center; font-size:24px; font-weight: 600;  color: #f33 }
+.utilArea .postCorona ul li span { display: inline-block;  width:100%; text-align: center; font-size:12px; color: #666 }
+
+.widgetCounter {padding-top:4px;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.actionTxtType1 .txt_move .txt02.newyear {font-size:66px}
+
+
+
+/*웹툰*/
+.utilArea .webToonTitle{width:100%;margin-bottom:50px;padding-top:50px;border-bottom:1px solid #ccc;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.utilArea .webToonTitle > span{display:block;position:relative;top:21px;width:600px;margin:0 auto;padding:0;background:#fff;font-size:36px;line-height:120%;color:#666;letter-spacing:-1px}
+.utilArea .webToonTitle > span:first-child{font-size:24px;color:#999}
+
+.utilArea .webToonTitle > span em:first-child { font-weight: 600; color:#6292c2 }
+.utilArea .webToonTitle > span em { color: #33cccc; }
+
+.utilArea .webToon { display: inline-block; width:100%; height: 337px;  margin:30px auto 0;  background-size:cover;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+
+.utilArea .webToon.bg01 { background:url(../images/main/webToon01.png) center center no-repeat;}
+.utilArea .webToon.bg02 { background:url(../images/main/webToon02.png) left top no-repeat;}
+.utilArea .webToon.bg03 { background:url(../images/main/webToon03.png) left top no-repeat;}
+
+/*웹툰애니*/
+.actionTxtType15 {
+	 position:relative;
+	 padding:13vh;
+	 height:100%;
+	 text-align:left;
+    color:#333;
+    text-shadow: 0 0 4px #fff;
+	 box-sizing:border-box;
+	 -webkit-box-sizing:border-box;
+	 -moz-box-sizing:border-box;
+}
+.actionTxtType15:after {
+	 position:absolute;
+	 z-index:0;
+	 top:0;
+	 left:0;
+	 display:block;
+	 content:'';
+	 height:100%;
+	 width:0px;
+	 background-color:rgba(0,0,0,.7);
+	 transition:width .45s;
+	 -webkit-transition:width .45s;
+	 -moz-transition:width .45s;
+}
+.actionTxtType15:hover:after {
+	 width:100%;
+}
+.actionTxtType15 .view_tit{
+	 position:relative;
+	  z-index:10;
+	 font-size:50px;
+	 line-height:60px;
+	 text-transform:uppercase;
+	 font-weight:700;
+	 padding-bottom:20px;
+	 text-shadow:1px 1px 10px #fff;
+	 transition:all .7s;
+	 -webkit-transition:all .7s;
+	 -moz-transition:all .7s;
+}
+.actionTxtType15 .view_txt {
+	 position:relative;
+	 z-index:10;
+	 transition:color .7s;
+	 -webkit-transition:color .7s;
+	 -moz-transition:color .7s;
+}
+.actionTxtType15:hover .view_tit {
+	 color:#fff;
+	 text-shadow:1px 1px 10px rgba(255,255,255,0.4);
+}
+.actionTxtType15:hover .view_txt {
+	 color:#fff;
+}
+
+
+@media screen and (max-width: 1366px){
+#head{width:1100px}
+#contents{width:1200px}
+.device{width:1200px;height:430px}
+.bxslider li{height:430px}
+.txt_view{margin:74px 0 0 210px}
+.utilArea .postCorona ul { width: 86%; margin:70px auto 0 }
+.utilArea .postCorona { height: 309px }
+#sta{width:1100px}
+.utilArea{width:1100px}
+#footer_main .f_util > ul{width:1100px}
+.utilArea .notiPort{margin:30px auto 0}
+
+.utilArea .notiPort > li{width:350px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:171px}
+.utilArea .notiPort > li .u_area .xeContactus{height:102px}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:60px;left:36px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:22px 0 0 130px; font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:20px}
+
+.utilArea .product > li{width:350px}
+#footer_main .fm{width:1100px}
+#footer_main .fl .title{display:none}
+#footer_main .fl{width:570px}
+#footer_main .fr{}
+}
+@media screen and (max-width: 1280px){
+#head{width:1080px}
+#contents{width:1180px}
+.device{width:1180px;height:420px}
+.bxslider li{height:420px}
+.txt_view{margin:70px 0 0 200px}
+.utilArea .postCorona ul { width: 90%; margin:60px auto 0 }
+.utilArea .postCorona { height: 292px }
+#sta{width:1040px}
+.utilArea{width:1040px}
+#footer_main .f_util > ul{width:1040px}
+
+.utilArea .notiPort > li{width:330px}
+.utilArea .notiPort > li .u_area .xeNotice ul li{margin-bottom:10px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:160px}
+.utilArea .notiPort > li .u_area .xeContactus{height:100px}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:58px;left:30px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:20px 0 0 125px; font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:20px}
+
+.utilArea .product > li{width:330px; cursor:pointer}
+
+#footer_main .fm{width:1040px}
+}
+@media screen and (max-width: 1200px){
+#head{width:1000px}
+#contents{width:1000px}
+.device{width:1000px;height:360px}
+.bxslider li{height:360px}
+.txt_view{width:700px;height:260px;margin:50px 0 0 170px}
+
+.utilArea .postCorona ul { width: 94%; margin:50px auto 0 }
+.utilArea .postCorona { height: 252px }
+.actionImg11 ul { transform: scale( 0.8 ); -webkit-transform: scale( 0.8 ); -moz-transform: scale( 0.8 ); }
+.actionImg11 ul:hover { transform: scale( .9 ); -webkit-transform: scale( .9 ); -moz-transform: scale( .9 ); }
+.actionTxtType1 .txt_move {
+	margin: 50px 0 0 50px;
+}
+.actionTxtType1 .txt_move .txt01{font-size:14px}
+.actionTxtType1 .txt_move .txt02{font-size:40px}
+.actionTxtType1 .txt_move .txt02.newyear {font-size:50px}
+.actionTxtType1 .txt_move .txt03{font-size:12px}
+
+.actionTxtType1 .txt_move.en .txt01{font-size:13px !important}
+.actionTxtType1 .txt_move.en .txt02{font-size:32px !important}
+.actionTxtType1 .txt_move.en .txt03{font-size:12px !important}
+
+#sta{width:1000px}
+.utilArea{width:1000px}
+#footer_main .f_util > ul{width:1000px}
+
+.utilArea .notiPort > li{width:317px}
+.utilArea .notiPort > li .u_area .xeNotice ul li{margin-bottom:6px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:154px}
+.utilArea .notiPort > li .u_area .xeNotice ul li > a {    width: 66%; }
+.utilArea .notiPort > li .u_area .xeContactus{height:94px}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:58px;left:26px; background-size:80%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:18px 0 0 98px; font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:12px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:17px}
+
+
+.utilArea .product > li{width:317px}
+.utilArea .product > li > div > p{font-size:24px}
+.utilArea .product > li > div > span{font-size:11px}
+#logo { margin: 20px 0 0 0px}
+#footer_main address{width:auto}
+#footer_main .fl .title{display:none}
+
+#footer_main{margin-top:60px}
+#footer_main .fm{width:1000px}
+#footer_main address > span.tit { display:none}
+#footer_main .fl{width:580px}
+#footer_main .fr{width:420px}
+#footer_main .fr{ float:left; margin-top:20px;}
+#footer_main .venture { float: left; }
+#footer_main .venture li { float: left; padding-left:0; padding-right: 20px;}
+
+
+}
+@media screen and (max-width: 1024px){
+#gnb{display:none}
+#menuNav{display:none}
+#mNav {display:block}
+#head{width:900px}
+#contents{width:900px}
+.device{width:900px;height:340px}
+.bxslider li{height:340px}
+
+.txt_view{width:700px;height:260px;margin:34px 0 0 140px}
+.actionTxtType1 .txt_move .txt01{font-size:14px}
+.actionTxtType1 .txt_move .txt02{font-size:40px}
+.actionTxtType1 .txt_move .txt02.newyear {font-size:50px}
+.actionTxtType1 .txt_move .txt03{font-size:12px}
+
+.utilArea .postCorona {
+    display: inline-block;
+    width: 100%;
+    height: 337px;
+    margin:0;
+    border-bottom: none;
+   background:none;}
+.utilArea .postCorona ul li { padding-top: 80px; height:160px}
+.utilArea .postCorona ul li em { font-size: 20px}
+.utilArea .postCorona ul { width: 100%; margin:0 auto 0 }
+
+.utilArea .postCorona ul li span {display:none}
+
+.utilArea .postCorona { height: 120px }
+
+.utilArea .postCoronaTitle > span:first-child { font-size: 20px;  }
+.utilArea .postCoronaTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+
+.utilArea .webToonTitle > span:first-child { font-size: 20px;  }
+.utilArea .webToonTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+
+.actionImg11 ul { transform: scale( 1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.actionImg11 ul:hover { transform: scale(1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+
+
+#sta{width:900px}
+.utilArea{width:900px}
+#footer_main .f_util > ul{width:900px}
+
+.utilArea .notiPort > li{width:283px}
+.utilArea .notiPort > li .u_area .xeNotice ul li{margin-bottom:5px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:136px}
+
+.utilArea .notiPort > li .u_area .xeContactus{height:84px}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:58px;left:26px; background-size:80%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:17px 0 0 98px; font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:11px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:16px;top:4px;}
+
+.utilArea .product > li{width:283px}
+
+#footer_main address{width:96%}
+#footer_main .fl .title{display:none}
+
+#footer_main .fm{width:900px}
+#footer_main .fl{width:800px}
+
+
+}
+@media screen and (max-width: 960px){
+#head{width:660px}
+#contents{width:680px}
+.device{width:680px;height:250px}
+.bxslider li{height:250px}
+
+.txt_view{width:600px;height:200px;margin:10px 0 0 50px}
+.actionTxtType1 .txt_move{margin:32px 0 0 30px}
+.actionTxtType1 .txt_move .txt01{font-size:13px}
+.actionTxtType1 .txt_move .txt02{font-size:36px}
+.actionTxtType1 .txt_move .txt02.newyear {font-size:44px}
+.actionTxtType1 .txt_move .txt03{font-size:11px}
+.actionTxtType1 .line.Lright{height:160px}
+.actionTxtType1 .line.Lleft{height:160px}
+.actionTxtType1 .line{top:30px;height:160px}
+
+#prevBtn{display:none}
+#nextBtn{display:none}
+#dropdownNav{right:0;margin:16px 0 0}
+.navFixed #dropdownNav{margin:12px 0 0}
+
+#sta{width:660px}
+.utilArea{width:660px}
+
+#footer_main .f_util > ul{width:660px}
+.utilArea .notiPort{margin:20px auto 0}
+.utilArea .notiPort > li.notice{width:100%}
+.utilArea .notiPort > li.contact{float:right}
+
+.utilArea .notiPort > li{width:320px;margin-left:0;margin-bottom:20px}
+.utilArea .notiPort > li .u_area .title01{font-size:24px;font-weight:normal}
+.utilArea .notiPort > li .u_area .xeNotice ul li{margin-bottom:8px;font-size:15px}
+.utilArea .notiPort > li .u_area .xeNotice ul li > a {  margin-right:5px; }
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:155px}
+
+.utilArea .productTitle{margin-bottom:0;padding-top:0}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus{height:110px}
+.utilArea .notiPort > li .u_area .xeContactus > a{width:99%;height:94px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:60px;left:30px; background-size: 100%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:18px 0 0 123px; font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:12px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:20px; top:1px}
+
+.utilArea .product > li{width:100%;margin-left:0;margin-bottom:20px}
+.utilArea .product > li img{width:100%}
+.utilArea .product > li > div{height:160px}
+
+.animation-element{overflow:hidden}
+
+.actionTxtType1 .txt_move.en .txt01{font-size:11px !important}
+.actionTxtType1 .txt_move.en .txt02{font-size:30px !important}
+.actionTxtType1 .txt_move.en .txt03{font-size:11px !important}
+
+.actionTxtType15 {  padding:12vh  6vh;  }
+.actionTxtType15 .view_tit {   font-size: 30px;    line-height: 40px; display:none }
+.actionTxtType15 .view_txt { font-size:12px; display:none }
+
+#footer_main address{width:96%}
+#footer_main .fl .title{display:none}
+
+#footer_main .fm{width:660px}
+#footer_main .fl{width:660px}
+
+#footer_main address > span.tit{display:block}
+
+#footer_main .fl{margin-top:0}
+
+#footer_main address{font-size:12px}
+#footer_main address > span.tit{width:80%;margin-top:20px}
+#footer_main address > span{display:block;width:100%;margin-top:10px}
+
+#footer_main .copyright{display:block;width:100%;font-size:12px;letter-spacing:-1px;text-align:left}
+
+}
+@media screen and (max-width: 700px){
+#head{width:560px}
+#contents{width:580px}
+.device{width:580px;height:200px}
+.bxslider li{height:200px}
+
+.txt_view{width:500px;height:200px;margin:0 0 0 50px}
+.actionTxtType1 .txt_move{margin:30px 0 0 30px}
+.actionTxtType1 .txt_move .txt01{font-size:11px}
+.actionTxtType1 .txt_move .txt02{font-size:30px}
+.actionTxtType1 .txt_move .txt03{display:none;font-size:11px}
+
+.actionTxtType1 .txt_move .txt02.newyear {font-size:40px}
+.actionTxtType1 .line.Lright{height:130px}
+.actionTxtType1 .line.Lleft{height:130px}
+.actionTxtType1 .line{top:30px;height:130px}
+.utilArea .postCorona {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin:0;
+    border-bottom: none;
+   background:none;}
+
+.utilArea .postCoronaTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.utilArea .webToonTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.utilArea .postCorona ul li { padding-top: 60px; height:140px}
+.utilArea .postCorona ul li em { font-size: 13px; color:#333}
+.utilArea .postCorona ul { width: 100%; margin:16px auto 0 }
+
+.utilArea .postCorona ul li span {display:none}
+
+.utilArea .postCorona { height: 120px }
+
+.utilArea .postCoronaTitle > span:first-child { font-size: 20px;  }
+.utilArea .postCoronaTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+
+.utilArea .webToonTitle > span:first-child { font-size: 20px;  }
+.utilArea .webToonTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+
+.actionImg11 ul { transform: scale( 1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.actionImg11 ul:hover { transform: scale(1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+
+
+#sta{width:560px}
+.utilArea{width:560px}
+
+#footer_main .f_util > ul{width:560px}
+.utilArea .notiPort{margin:20px auto 0}
+.utilArea .notiPort > li.notice{width:100%}
+.utilArea .notiPort > li.contact{float:right}
+
+.utilArea .notiPort > li{width:276px;margin-left:0;margin-bottom:20px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:133px}
+
+.utilArea .notiPort > li .u_area .xeContactus{height:96px}
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a{width:98.5%;height:80px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:60px;left:26px; background-size: 80%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:16px 0 0 100px; }
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:11px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:16px; top:0}
+
+.utilArea .product > li{width:100%;margin-left:0;margin-bottom:20px}
+.utilArea .product > li img{width:100%}
+.utilArea .product > li > div{height:160px}
+
+.animation-element{overflow:hidden}
+
+.actionTxtType1 .txt_move.en .txt01{font-size:9px  !important; letter-spacing:-1px;}
+.actionTxtType1 .txt_move.en .txt02{font-size:24px !important}
+.actionTxtType1 .txt_move.en .txt03{font-size:10px !important}
+.utilArea .postCorona {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin:0;
+    border-bottom: none;
+   background:none;}
+
+.utilArea .postCoronaTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+.utilArea .webToonTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.utilArea .postCorona ul li { padding-top: 60px; height:140px}
+.utilArea .postCorona ul li em { font-size: 13px; color:#333}
+.utilArea .postCorona ul { width: 100%; margin:16px auto 0 }
+
+.utilArea .postCorona ul li span {display:none}
+
+.utilArea .postCorona { height: 120px }
+
+.utilArea .postCoronaTitle > span:first-child { font-size: 20px;  }
+.utilArea .postCoronaTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+.utilArea .webToonTitle > span:first-child { font-size: 20px;  }
+.utilArea .webToonTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+.actionImg11 ul { transform: scale( 1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.actionImg11 ul:hover { transform: scale(1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+
+#footer_main address{width:96%}
+#footer_main .fl .title{display:none}
+
+#footer_main .fm{width:560px}
+#footer_main .fl{width:560px}
+
+#footer_main address > span.tit{display:block}
+
+
+}
+@media screen and (max-width: 600px){
+#head{width:440px}
+#contents{width:460px}
+.device{width:460px;height:170px}
+.bxslider li{height:170px}
+
+.postCoronaTitle { display:none }
+
+.webToonTitle { display:none }
+
+
+.utilArea .postCorona {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin:0;
+    border-bottom: none;
+   background:none;}
+
+.utilArea .postCoronaTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.utilArea .postCorona ul li { padding-top: 60px; height:140px}
+.utilArea .postCorona ul li em { font-size: 13px; color:#333}
+.utilArea .postCorona ul { width: 100%; margin:16px auto 0 }
+
+.utilArea .postCorona ul li span {display:none}
+
+.utilArea .postCorona { height: 120px }
+
+.utilArea .postCoronaTitle > span:first-child { font-size: 20px;  }
+.utilArea .postCoronaTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+.actionImg11 ul { transform: scale( 1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.actionImg11 ul:hover { transform: scale(1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.txt_view{width:400px;height:200px;margin:0 0 0 36px}
+.actionTxtType1 .txt_move{margin:26px 0 0 10px}
+.actionTxtType1 .txt_move .txt01{font-size:12px;line-height:90%}
+.actionTxtType1 .txt_move .txt02{font-size:24px;line-height:90%}
+.actionTxtType1 .txt_move .txt02.newyear {font-size:26px}    
+.actionTxtType1 .txt_move .txt03{display:none;font-size:11px}
+.actionTxtType1 .line.Lright{height:100px}
+.actionTxtType1 .line.Lleft{height:100px}
+.actionTxtType1 .line{top:30px;height:100px}
+
+#sta{width:440px}
+.utilArea{width:440px}
+
+#footer_main .f_util > ul{width:440px}
+.utilArea .notiPort{margin:20px auto 0}
+.utilArea .notiPort > li.notice{width:100%}
+.utilArea .notiPort > li.contact{float:right}
+.utilArea .notiPort > li.contact {    float: right;}
+.utilArea .notiPort > li{width:100%;margin-left:0;margin-bottom:10px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:215px}
+
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus{height:120px}
+.utilArea .notiPort > li .u_area .xeContactus > a{width:100%;height:103px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:64px;left:36px; background-size: 100%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:19px 0 0 140px; }
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:13px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:21px; }
+
+.utilArea .notiPort > li .u_area .xeContactus > a{background-size:cover}
+
+.utilArea .productTitle{display:none}
+
+.utilArea .title02{display:block;margin:20px 0 10px;font-size:21px;color:#f33;letter-spacing:-1px}
+
+.utilArea .product{margin:0 auto}
+
+.utilArea .product > li{width:100%;margin-left:0;margin-bottom:20px}
+.utilArea .product > li img{width:100%}
+.utilArea .product > li > div{height:160px}
+.menu { right: -10px }
+
+.actionTxtType1 .txt_move.en .txt01{font-size:9px !important; letter-spacing:-1px; display:none}
+.actionTxtType1 .txt_move.en .txt02{font-size:20px !important}
+.actionTxtType1 .txt_move.en .txt03{font-size:10px !important}
+
+#footer_main address{width:96%}
+
+#footer_main .fm{width:440px}
+#footer_main .fl{width:440px}
+
+}
+@media screen and (max-width: 480px){
+#head{width:310px}
+#contents{width:310px}
+.device{display:none}
+#sta{width:310px}
+.utilArea{width:310px}
+.utilArea .notiPort{margin-top:20px}
+#footer_main .f_util > ul{width:310px}
+.utilArea .notiPort > li.notice{width:100%}
+.utilArea .notiPort > li.contact{float:right}
+
+.utilArea .postCorona {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin:0;
+    border-bottom: none;
+   background:none;}
+
+.utilArea .postCoronaTitle {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.utilArea .postCorona ul li { padding-top: 60px; height:140px}
+.utilArea .postCorona ul li em { font-size: 13px; color:#333}
+.utilArea .postCorona ul { width: 100%; margin:16px auto 0 }
+
+.utilArea .postCorona ul li span {display:none}
+
+.utilArea .postCorona { height: 120px }
+
+.utilArea .postCoronaTitle > span:first-child { font-size: 20px;  }
+.utilArea .postCoronaTitle > span { top: 21px; width: 540px; font-size: 30px; line-height: 120%;}
+
+.actionImg11 ul { transform: scale( 1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+.actionImg11 ul:hover { transform: scale(1 ); -webkit-transform: scale( 1 ); -moz-transform: scale( 1 ); }
+
+.utilArea .notiPort > li .u_area .title01{font-size:24px;font-weight:normal}
+.utilArea .notiPort > li .u_area .xeNotice ul li{margin-bottom:8px;font-size:14px}
+.utilArea .notiPort > li .u_area .xeNotice ul li > a {width:60%;}
+.utilArea .notiPort > li{width:100%;margin-left:0;margin-bottom:10px}
+.utilArea .notiPort > li .u_area .xePortfolio ul li a > img{width:150px}
+
+.utilArea .notiPort > li .u_area .xeContactus{height:100px}
+.utilArea .notiPort > li .u_area .xeContactus > a{width:100%;height:84px}
+/*18.09.07*/
+.utilArea .notiPort > li .u_area .xeContactus > a span.ico_tel{top:60px;left:26px; background-size: 80%}
+.utilArea .notiPort > li .u_area .xeContactus > a span.contex {margin:16px 0 0 100px; }
+.utilArea .notiPort > li .u_area .xeContactus > a span.email {font-size:11px}
+.utilArea .notiPort > li .u_area .xeContactus > a span.tel {font-size:16px; }
+
+.utilArea .notiPort > li .u_area .xeContactus > a{background-size:cover}
+
+.utilArea .product > li{width:100%;margin-left:0;margin-bottom:20px}
+.utilArea .product > li img{width:100%}
+.utilArea .product > li > div{height:180px;padding:20px 30px}
+.utilArea .product > li > div a{left:30px;bottom:20px}
+.utilArea .productTitle > span{width:320px;font-size:36px}
+.utilArea .title02{margin:20px 0 10px}
+
+#footer_main address{width:96%}
+#footer_main .f_util > ul li{margin-right:16px;padding-left:16px}
+#footer_main .f_util > ul li:first-child{padding-left:16px}
+#footer_main .fm{width:310px}
+#footer_main .fl{width:310px;margin-top:0}
+#footer_main address{font-size:12px}
+#footer_main address > span.tit{width:80%;margin-top:20px}
+#footer_main address > span{display:block;width:100%;margin-top:10px}
+
+#footer_main .copyright{margin-top:10px;font-size:12px;letter-spacing:-1px}
+#footer_main .fr{width:100%; margin-bottom:20px}
+#footer_main .venture li:first-child { float: left; width:100%; margin-bottom: 20px;}
+}
