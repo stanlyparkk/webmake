@@ -1,0 +1,128 @@
+/* 노멀라이징 */
+*{
+  margin:0;
+  padding:0;
+}
+ul , ol , li {
+  list-style:none;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+/* 라이브러리 */
+.cell{
+  float:left;
+}
+.cell-r{
+float:right;
+}
+.row::after{
+  display:block;
+  clear:both;
+  content:"";
+}
+.con{
+    width: 1500px;
+}
+/* 스타일 */
+.top-bar-wrap{
+  width: 100%;
+  height: 100px;
+}
+.top-bar-wrap > .top-bar-wrap01{
+   height: 30px;
+}
+.top-bar-wrap > .top-bar-wrap01 > .top-bar01{
+  line-height:30px;
+}
+.top-bar-wrap > .top-bar-wrap01 > .top-bar01 > ul{
+  padding-top:10px;
+}
+.top-bar-wrap > .top-bar-wrap01 > .top-bar01 > ul > li{
+  padding-left: 10px ;
+  padding-right: 10px ;
+  line-height: 14px ;
+  position:relative;
+  color:#999;
+  font-size:13px;
+  border-right: 1px solid #ebebeb;
+}
+.top-bar-wrap > .top-bar-wrap01 > .top-bar01 > ul > li:hover{
+  color:black;
+}
+.top-bar-wrap > .top-bar-wrap01 > .top-bar01 > ul::nth-last-child{
+  border-right: 0px solid black;
+}
+.border-right{
+  border-right:1px solid gray;
+  opacity:0.8
+}
+.top-bar-wrap > .top-bar-wrap02{
+  background-color:#ddd;
+}
+.top-bar-wrap > .top-bar-wrap02 > .logo-box {
+  width: 140px;
+  height: 70px;
+  position: relative ;
+  margin-left: 140px ;
+  margin-right: 10px ;
+}
+.top-bar-wrap > .top-bar-wrap02 > .logo-box > img {
+  width: 100% ;
+  position: absolute ;
+  top: 50% ;
+  left: 50% ;
+  transform:translate(-50%,-50%) ;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul{
+  margin-right:430px;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul > li{
+  padding-left: 22px ;
+  padding-right: 22px ;
+  line-height: 70px ;
+  position:relative;
+  color:black;
+  font-size:15px;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul > li::after{
+  content:"";
+  display:block;
+  width: 0%;
+  height: 3px;
+  background-color:red;
+  position:absolute;
+  bottom:0;
+  transition:0.5s;
+  left:50%;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul > li:hover::after{
+  width: 100%;
+  left:0;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul > li > ul{
+  display:none;
+  position:absolute;
+  border: 1px solid #2f5c98;
+  background: #4c6aa2;
+  width: 100%;
+  font-size:12px;
+  line-height:20px;
+  left:0;
+  color:white;
+  line-height:30px;
+}
+.top-bar-wrap > .top-bar-wrap02 > .nav-box > ul > li.tap-menu:hover > ul{
+  display:block;
+}
+.main-slider{
+  max-width: 1700px ;
+  margin: 0 auto;
+}
+.main-slider .content{
+  position:relative;
+}
+.main-slider .content > img{
+  width: 100%;
+}
